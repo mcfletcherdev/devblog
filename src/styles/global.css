@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Body & Background Styles*/
+
+body {
+        background-image: radial-gradient(circle, #b598e5, #ac9cea, #a3a0ee, #99a4f2, #8fa8f5, #91aaf7, #93acfa, #95aefc, #a4affe, #b2afff, #c0b0ff, #ceb0ff);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body-dark {
+        background-image: radial-gradient(circle, #81adf8, #90aefb, #9faefd, #aeaffe, #bcafff, #caaffb, #d6aff7, #e1aff2, #ebafe8, #f2b0de, #f6b2d6, #f8b5ce);
+}
+
+#radialPurple {
+        background-image: radial-gradient(circle, #81adf8, #90aefb, #9faefd, #aeaffe, #bcafff, #caaffb, #d6aff7, #e1aff2, #ebafe8, #f2b0de, #f6b2d6, #f8b5ce);
+}
+
+#upPurple {
+    background-image: linear-gradient(to top, #81adf8, #90aefb, #9faefd, #aeaffe, #bcafff, #caaffb, #d6aff7, #e1aff2, #ebafe8, #f2b0de, #f6b2d6, #f8b5ce);
+}
+
+#bottomRightPurple {
+    background-image: linear-gradient(to right top, #81adf8, #90aefb, #9faefd, #aeaffe, #bcafff, #caaffb, #d6aff7, #e1aff2, #ebafe8, #f2b0de, #f6b2d6, #f8b5ce);
+}
+
+#topTwoTone {
+    background-image: linear-gradient(to top, #81adf8, #95aefc, #a9affe, #bcafff, #ceb0ff);
+}
+
+/* Font Families */
+
+.body-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+}
+

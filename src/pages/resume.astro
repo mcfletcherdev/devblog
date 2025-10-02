@@ -1,0 +1,11 @@
+---
+import DefaultLayout from '@layouts/DefaultLayout.astro'
+import PageHeader from '@components/PageHeader.astro'
+import { Heading, Notification } from 'accessible-astro-components'
+import { getCollection } from 'astro:content'
+import { Default } from 'astro-compress'
+---
+
+<DefaultLayout title="Resume" description="Learn about my incredibly boring work experience.">
+  <PageHeader title="Resume" subtitle="Learn about my incredibly boring work experience." bgType="gradient" />
+</DefaultLayout>
