@@ -31,3 +31,7 @@ package-lock.json
 
 # cursor rules
 .cursor/rules
+
+# work in progress or defunct pages
+.styles/resume.css
+.pages/template/
